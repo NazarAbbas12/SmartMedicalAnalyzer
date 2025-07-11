@@ -63,35 +63,18 @@ hsqldb-<version>.jar
 Configure the database path
 The application uses a hardcoded path to the MS Access file:
 
-java
-Copy
-Edit
 String dbPath = "C:/Users/HAROON TRADERS/OneDrive/Documents/MedicalDatabase.accdb";
 ⚠️ If you're running on another system:
 Place your .accdb file in a known location.
 
 Update the path in all relevant files (e.g., SignUp.java, Login.java) like this:
 
-java
-Copy
-Edit
 String dbPath = "your/path/to/MedicalDatabase.accdb";
 Run the application
 
 Compile and run SignUp.java or Login.java.
 
-🗂 Folder Structure
-arduino
-Copy
-Edit
-medicalreportanalyst/
-├── SignUp.java
-├── Login.java
-├── LiverAnalyzerUI.java
-├── HeartAnalyzerUI.java
-├── KidneyAnalyzerUI.java
-├── Organ analyzer test files...
-└── MedicalDatabase.accdb   <-- Make sure this exists or change the path!
+
 🔒 Security Note
 All passwords are hashed using BCrypt before being saved to the database.
 
@@ -105,6 +88,3 @@ Software Engineering, Bahria University
 📌 License
 This project is open-source and free to use for learning and academic purposes.
 
-yaml
-Copy
-Edit

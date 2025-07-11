@@ -42,8 +42,9 @@ A modern, medical-themed desktop application built with **Java Swing** and **MS 
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/your-username/smart-medical-analyzer.git
-   cd smart-medical-analyzer
+  git clone https://github.com/NazarAbbas12/SmartMedicalAnalyzer.git
+cd SmartMedicalAnalyzer
+
 Download and add UCanAccess libraries:
 
 Add these .jar files to your project build path:
